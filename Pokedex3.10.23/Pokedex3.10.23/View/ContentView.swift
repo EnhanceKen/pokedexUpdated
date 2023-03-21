@@ -10,9 +10,13 @@ import SwiftUI
 struct ContentView: View {
     
     @StateObject var viewModel: PokemonViewModel = PokemonViewModel(networkManager: NetworkManager())
+    @State var searchPokemon = ""
     
     var body: some View {
         NavigationStack {
+            
+            SearchBarView(searchText: $viewModel.searchText)
+            
             ScrollView{
                 ForEach(viewModel.listPokemon){pokemon in
                     NavigationLink{

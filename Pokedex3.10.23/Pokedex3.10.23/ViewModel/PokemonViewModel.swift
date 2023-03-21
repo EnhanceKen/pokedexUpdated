@@ -13,7 +13,7 @@ class PokemonViewModel: ObservableObject{
     
     
     @Published var listPokemon: [Pokemon] = []
-    
+    @Published var searchText: String = ""
     
     var networkManager: Networkable
     private var cancelable = Set<AnyCancellable>()
@@ -43,8 +43,12 @@ class PokemonViewModel: ObservableObject{
                     self.listPokemon = datum.data
                 }
             }.store(in: &cancelable)
+//        $searchText
+//            .combineLatest(networkManager.$listPokemon)
         
         
     }
+    
+    
     
 }
