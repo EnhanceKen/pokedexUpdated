@@ -21,7 +21,7 @@ struct SearchBarView: View {
                 .overlay(
                 Image(systemName: "xmark.circle.fill")
                     .padding()
-//                    .offset(x:10)
+
                     .foregroundColor(Color.black.opacity(searchText.isEmpty ? 0.0: 0.7))
                     .onTapGesture {
                         UIApplication.shared.endEditing()
@@ -41,7 +41,7 @@ struct SearchBarView: View {
         )
         .padding(.leading, 10)
         .padding(.trailing, 10)
-//        .frame(height: 40)
+
     }
 }
 

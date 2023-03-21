@@ -10,8 +10,8 @@ import Combine
 
 
 class PokemonViewModel: ObservableObject{
-    
-    
+//    @Published var viewModel: PokemonViewModel = PokemonViewModel(networkManager: NetworkManager())
+    @Published var filteredData = [Pokemon]()
     @Published var listPokemon: [Pokemon] = []
     @Published var searchText: String = ""
     
@@ -43,12 +43,18 @@ class PokemonViewModel: ObservableObject{
                     self.listPokemon = datum.data
                 }
             }.store(in: &cancelable)
-//        $searchText
-//            .combineLatest(networkManager.$listPokemon)
-        
-        
+
     }
     
+    func filterPokemon(with query: String) -> [Pokemon] {
+         if query.isEmpty {
+             return listPokemon
+         } else {
+             return listPokemon.filter { pokemon in
+                 pokemon.name.lowercased().contains(query.lowercased())
+             }
+         }
+     }
     
     
 }
