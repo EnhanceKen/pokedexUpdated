@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "C8A9EC9F-6766-47F5-8E43-D8E46D3538C3"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "390752BB-97EE-4509-AB21-5956FBC306E1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pokedex3.10.23/View/Buttons.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "390752BB-97EE-4509-AB21-5956FBC306E1 - 311d1d8e7f631745"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;Pokedex3_10_23.Pokemon&gt;, Swift.String, Pokedex3_10_23.CardView&gt; in Pokedex3_10_23.Buttons.body.getter : some"
+                  moduleName = "Pokedex3.10.23"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/consultant/Documents/Pokedex3.10.23/Pokedex3.10.23/View/Buttons.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "69"
+                  endingLineNumber = "69"
+                  offsetFromSymbolStart = "200">
+               </Location>
+               <Location
+                  uuid = "390752BB-97EE-4509-AB21-5956FBC306E1 - de1a51a6c609a7cd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Pokedex3_10_23.Pokemon) -&gt; Pokedex3_10_23.CardView in closure #2 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;Pokedex3_10_23.Pokemon&gt;, Swift.String, Pokedex3_10_23.CardView&gt; in Pokedex3_10_23.Buttons.body.getter : some"
+                  moduleName = "Pokedex3.10.23"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/consultant/Documents/Pokedex3.10.23/Pokedex3.10.23/View/Buttons.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "70"
+                  endingLineNumber = "70"
+                  offsetFromSymbolStart = "117">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
