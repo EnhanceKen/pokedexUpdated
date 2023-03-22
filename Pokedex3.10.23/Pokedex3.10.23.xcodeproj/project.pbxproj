@@ -15,6 +15,7 @@
 		0235BDCF29C9FFF90053E115 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0235BDCE29C9FFF90053E115 /* SearchBarView.swift */; };
 		0235BDD129CA006E0053E115 /* Retro Gaming.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0235BDD029CA006E0053E115 /* Retro Gaming.ttf */; };
 		0235BDD529CA0ECF0053E115 /* UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0235BDD429CA0ECF0053E115 /* UIApplication.swift */; };
+		0235BDF129CABEE20053E115 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0235BDF029CABEE20053E115 /* Home.swift */; };
 		02C7221B29BFEAA900292AF8 /* PokemonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C7221A29BFEAA900292AF8 /* PokemonViewModel.swift */; };
 		02C7221D29BFF50200292AF8 /* APIEndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C7221C29BFF50200292AF8 /* APIEndPoint.swift */; };
 		02C7221F29BFF59600292AF8 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C7221E29BFF59600292AF8 /* NetworkManager.swift */; };
@@ -55,6 +56,7 @@
 		0235BDCE29C9FFF90053E115 /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
 		0235BDD029CA006E0053E115 /* Retro Gaming.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Retro Gaming.ttf"; path = "../../../../Downloads/Retro Gaming.ttf"; sourceTree = "<group>"; };
 		0235BDD429CA0ECF0053E115 /* UIApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplication.swift; sourceTree = "<group>"; };
+		0235BDF029CABEE20053E115 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		02C7221A29BFEAA900292AF8 /* PokemonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonViewModel.swift; sourceTree = "<group>"; };
 		02C7221C29BFF50200292AF8 /* APIEndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIEndPoint.swift; sourceTree = "<group>"; };
 		02C7221E29BFF59600292AF8 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
@@ -201,6 +203,7 @@
 				0235BDC529C8C58F0053E115 /* ListCell.swift */,
 				0235BDC129C8AC1B0053E115 /* DetailView.swift */,
 				0235BDC729C8F5AC0053E115 /* DirectionalPadView.swift */,
+				0235BDF029CABEE20053E115 /* Home.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -350,6 +353,7 @@
 				02C7221D29BFF50200292AF8 /* APIEndPoint.swift in Sources */,
 				0235BDC229C8AC1B0053E115 /* DetailView.swift in Sources */,
 				0235BDCF29C9FFF90053E115 /* SearchBarView.swift in Sources */,
+				0235BDF129CABEE20053E115 /* Home.swift in Sources */,
 				02EA0EF329BBDC380078BD1A /* Pokedex3_10_23App.swift in Sources */,
 				0235BDC829C8F5AC0053E115 /* DirectionalPadView.swift in Sources */,
 				02C7221B29BFEAA900292AF8 /* PokemonViewModel.swift in Sources */,

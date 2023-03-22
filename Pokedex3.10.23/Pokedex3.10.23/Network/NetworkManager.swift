@@ -19,6 +19,4 @@ class NetworkManager: Networkable{
             .decode(type: T.self, decoder: JSONDecoder())
             .eraseToAnyPublisher()
     }
-    
-    
 }
